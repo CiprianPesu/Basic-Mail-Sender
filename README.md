@@ -55,28 +55,6 @@ Configure your email settings:
 - **SMTP Server**: Gmail (smtp.gmail.com) or your email provider's SMTP server
 - **Port**: Typically 587 (TLS) or 465 (SSL)
 
-## Security
-
-⚠️ **Important**: Never hardcode credentials in your code. Use environment variables:
-
-```python
-import os
-
-sender = os.getenv('EMAIL_USER')
-password = os.getenv('EMAIL_PASSWORD')
-```
-
-## Contributing
-
-Contributions are welcome! Feel free to:
-- Report issues
-- Submit pull requests
-- Suggest improvements
-
-## License
-
-This project is open source and available under the MIT License.
-
 ## Author
 
 [CiprianPesu](https://github.com/CiprianPesu)
@@ -84,7 +62,3 @@ This project is open source and available under the MIT License.
 ## Support
 
 For questions or issues, please open an [Issue](https://github.com/CiprianPesu/Basic-Mail-Sender/issues) on GitHub.
-
----
-
-**Note**: For Gmail, you may need to generate an [App Password](https://myaccount.google.com/apppasswords) if you have 2FA enabled.
